@@ -1,0 +1,231 @@
+.homePageWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #080808;
+  height: 100vh;
+}
+
+.formWrapper {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 400px;
+  max-width: 90%;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+}
+
+footer a {
+  color: #4aee88;
+}
+
+.inputGroup {
+  display: flex;
+  flex-direction: column;
+}
+
+.mainLabel {
+  margin-bottom: 20px;
+  margin-top: 0;
+}
+
+.homePageLogo {
+  height: 80px;
+  margin-bottom: 30px;
+}
+
+.inputBox {
+  padding: 10px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  margin-bottom: 14px;
+  background: #d6cccc;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.btn {
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.joinBtn,
+.leaveBtn {
+  background: #d4a31ed6;
+  color: white;
+
+  width: 100px;
+  margin-left: auto;
+}
+
+.joinBtn:hover,
+.leaveBtn:hover {
+  background: #dddb52;
+}
+
+.createInfo {
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.createNewBtn {
+  color: #4457e7;
+  text-decoration: none;
+  border-bottom: 1px solid #4457e7;
+  transition: all 0.3s ease-in-out;
+}
+
+.createNewBtn:hover,
+footer a:hover {
+  color: #4457e7;
+  border-color: #4457e7;
+}
+
+.mainWrap {
+  display: grid;
+  grid-template-columns: 230px 1fr;
+}
+
+.aside {
+  padding: 16px;
+  background: #fff;
+  color: #080808;
+  display: flex;
+  flex-direction: column;
+}
+.asideInner {
+  flex: 1;
+}
+
+.clientsList {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.client {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-weight: bold;
+}
+.userName {
+  margin-top: 10px;
+}
+
+.logo {
+  border-bottom: 1px solid #424242;
+  padding-bottom: 10px;
+}
+
+.logoImage {
+  height: 60px;
+}
+
+.leaveBtn {
+  width: 100%;
+  margin-top: 20px;
+}
+.CodeMirror {
+  min-height: calc(100vh - 20px);
+  font-size: 20px;
+  line-height: 1.6;
+  padding-top: 20px;
+}
+
+.querySolverIcon {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: rgb(255, 255, 255);
+  overflow: hidden;
+}
+
+.supportImg {
+  width: 100%;
+  height: 100%;
+}
+
+.relative_container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  bottom: 0;
+  /* background-color: red; */
+}
+
+.querybox_container {
+  background-color: rgba(12, 11, 11, 0.89);
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.querybox_chat_container {
+  background-color: white;
+  padding: 10px;
+  height: 500px;
+  width: 300px;
+  position: absolute;
+  bottom: 30px;
+  right: 30px;
+  border-radius: 20px;
+}
+
+.question {
+  color: gray;
+  font-size: 10px;
+}
+
+.answer {
+  color: rgb(43, 37, 37);
+  font-size: 15px;
+}
+
+.inputContainer {
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.inputContainer input {
+  width: 60%;
+  padding: 5px;
+  border-radius: 10px;
+  outline: none;
+  border: 1px solid rgb(170, 170, 170);
+}
+
+.inputContainer button {
+  padding: 5px;
+}
+
+button {
+  cursor: pointer;
+}
+
+.content {
+  height: 380px;
+  overflow-y: scroll;
+}
